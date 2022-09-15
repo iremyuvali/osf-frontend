@@ -1,0 +1,22 @@
+.carousel-indicators li {
+    border-radius: 100%;
+    margin: 0px 3px;
+    height: 12px;
+    max-width: 12px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #fff;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+  }
+  
+  .carousel-caption h1 {
+    text-align: left;
+  }
+  
+  .carousel-caption p {
+    text-align: left;
+  }
+  

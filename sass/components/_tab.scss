@@ -1,0 +1,60 @@
+#tab {
+    body {
+      margin-top: 100px;
+      font-family: "Trebuchet MS", serif;
+      line-height: 1.6;
+    }
+  
+    p {
+      color: #ffffff;
+      font-family: Lato;
+      font-size: 20px;
+    }
+  
+    .container {
+      width: 800px;
+      margin: 0 auto;
+    }
+  
+    ul.tabs {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+    ul.tabs li {
+      background: none;
+  
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-family: "Lato";
+      font-size: 36px;
+      font-weight: 400;
+      color: #bdc3c7;
+    }
+  
+    ul.tabs li.current {
+      background: #1e1d22;
+      color: #ffffff;
+    }
+  
+    .tab-content {
+      display: none;
+      background: #1e1d22;
+      padding: 15px;
+    }
+  
+    .tab-content.current {
+      display: inherit;
+    }
+   
+    .tab-link{
+      -webkit-border-top-left-radius: 20px;
+      -webkit-border-top-right-radius: 20px;
+      -moz-border-radius-topleft: 20px;
+      -moz-border-radius-topright: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+  }
+  

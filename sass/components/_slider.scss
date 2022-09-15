@@ -1,0 +1,29 @@
+#slider {
+    .carousel-indicators li {
+      width: 1000px !important;
+    }
+    .carousel-indicators {
+      bottom: 0px !important;
+    }
+  
+    h2 {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    h2:before,
+    h2:after {
+      content: "";
+      border-top: 2px solid;
+      margin: 0 20px 0 0;
+      flex: 1 0 20px;
+    }
+  
+    h2:after {
+      margin: 0 0 0 20px;
+    }
+  }
+  
